@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Gllacy shop</title>
+</head>
+<body>
+<!-- ШАПКА САЙТА -->
+<header class="page-header">
+    <div class="page-header-container">
+        <nav class="navigation">
+            <a href="index.html" class="navigation-logo">
+                <img src="" alt="Логотип" class="logo">
+            </a>
+            <ul class="navigation-list">
+                <li class="navigation-item">
+                    <a href="#" class="navigation-link">Каталог</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="#" class="navigation-link">Доставка и оплата</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="#" class="navigation-link">О компании</a>
+                </li>
+            </ul>
+            <ul class="navigation-user">
+                <li class="navigation-item">
+                    <a href="#" class="navigation-link">+7 800 555-86-28</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="#" class="navigation-link">Доставка и оплата</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="#" class="navigation-link">О компании</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- ГЛАВНАЯ ЧАСТЬ САЙТА -->
+<main class="main-index">
+    <section class="order">
+        <h1 class="order-title">Нежный пломбир
+            с клубничным джемом</h1>
+        <p class="order-description">Натуральное мороженое из свежих сливок
+            и молока с вкуснейшим клубничным джемом – это идеальный десерт для всей семьи. </p>
+        <button class="button order-button">Заказать</button>
+
+        <!-- Точки для перехода на другие слайды(возможно придется обернуть их в div) -->
+        <ol class="slider-pagination">
+            <li class="slider-pagination-item">
+                <button class="slider-pagination-button" type="button">о</button>
+            </li>
+            <li class="slider-pagination-item">
+                <button class="slider-pagination-button" type="button">о</button>
+            </li>
+            <li class="slider-pagination-item">
+                <button class="slider-pagination-button" type="button">о</button>
+            </li>
+        </ol>
+    </section>
+    <section class="gallery">
+        <div class="gallery-first-slide">
+            <img src="" alt="1 слайд мороженного">
+            <button class="slider-button button-prev" type="button">
+                <
+            </button>
+            <button class="slider-button button-next" type="button">
+                >
+            </button>
+            <div class="first-circle"></div> <!-- круг вокруг мороженки(потом зададим
+            ему в стилях border-radius) -->
+        </div>
+
+        <div class="gallery-other-slide">
+            <img src="" alt="2 слайд мороженного">
+            <div class="other-circle"></div> <!-- круг вокруг мороженки(потом зададим
+            ему в стилях border-radius) -->
+        </div>
+        <div class="gallery-other-slide">
+            <img src="" alt="3 слайд мороженного">
+            <div class="other-circle"></div> <!-- круг вокруг мороженки(потом зададим
+            ему в стилях border-radius) -->
+        </div>
+        <ul class="gallery-social-list">
+            <!-- Вместо текста потом положим картинки -->
+            <li class="gallery-social-item">
+                <a href="#" class="gallery-social-link">Вконтакте</a>
+            </li>
+            <li class="gallery-social-item">
+                <a href="#" class="gallery-social-link">Фейсбук</a>
+            </li>
+            <li class="gallery-social-item">
+                <a href="#" class="gallery-social-link">Инстаграм</a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Баннеры: -->
+    <section class="banners">
+        <h2 class="banners-title">Заказывайте мороженое
+            и получайте подарки!</h2>
+        <!-- Контейнер, содержащий два баннера: -->
+        <div class="banners-container">
+            <!-- описываем один баннер: -->
+                <div class="banner-item">
+                    <!-- Текст и кнопка в баннере(кнопку возможно придется заменить на ссылку) -->
+                    <div class="banner-container-description">
+                        <h3 class="order-title">Малинка даром!</h3>
+                        <p class="order-description">При покупке 2 кг любого фруктового
+                            мороженого добавим в ваш заказ банку
+                            малинового варенья бесплатно. </p>
+                        <button class="button order-button">Хочу подарок</button>
+                    </div>
+                    <!-- Картинка в баннере -->
+                    <div class="banner-container-image">
+                        <img src="" alt="Картинка баннера" class="banner-image">
+                    </div>
+                </div>
+            <!-- описываем второй баннер: -->
+            <div class="banner-item">
+                <!-- Текст и кнопка в баннере(кнопку возможно придется заменить на ссылку) -->
+                <div class="banner-container-description">
+                    <h3 class="order-title">Маршмеллоу даром!</h3>
+                    <p class="order-description">При покупке 2 кг пломбира добавим
+                        в ваш заказ упаковку нежных
+                        зефирок совершенно бесплатно. </p>
+                    <button class="button order-button">Хочу подарок</button>
+                </div>
+                <!-- Картинка в баннере -->
+                <div class="banner-container-image">
+                    <img src="" alt="Картинка баннера" class="banner-image">
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+</body>
+</html>
